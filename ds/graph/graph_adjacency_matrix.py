@@ -1,7 +1,7 @@
 """
 基于邻接矩阵实现图
 """
-class AdjacencyMatrix(object):
+class GraphAdjacencyMatrix(object):
     def __init__(self, vertex_number):
         # 图顶点数
         self.vertex_number = vertex_number
@@ -21,16 +21,18 @@ class AdjacencyMatrix(object):
 创建图
 """
 if __name__ == "__main__":
-
-    graph = AdjacencyMatrix()
+    # 初始化一个空的邻接矩阵
+    graph = GraphAdjacencyMatrix()
 
     vertex_number = 0
     edge_number = 0
     edges = []
     vertex = []
 
+    # 设置边
     for edge in edges:
         graph.add_edge(edge)
 
+    # 设置顶点数据
     for i in range(len(vertex)):
         graph.vertexs[i] = vertex[i]

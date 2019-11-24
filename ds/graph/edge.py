@@ -2,9 +2,9 @@
 边定义
 """
 class Edge(object):
-    def __init__(self, start_vertex, end_vertex, weight):
+    def __init__(self, v1, v2, weight):
         # 顶点
-        self.start_vertex = start_vertex
-        self.end_vertex = end_vertex
+        self.v1 = v1
+        self.v2 = v2
         # 权重
         self.weight = weight

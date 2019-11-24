@@ -1,0 +1,2 @@
+class GraphAdjacencyTable(object):
+    pass
